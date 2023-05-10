@@ -2,6 +2,7 @@
 # Code Licensed under the Apache License, Version 2.0
 # takes a, b and c as input and calculates the roots of the quadratic equation
 
+import math
 a = int(input("Enter value of a : "))
 b = int(input("Enter value of b : "))
 c = int(input("Enter value of c : "))
@@ -18,4 +19,3 @@ if d == 0:
     print("Roots are real and equal")
 elif d > 0:
     print("Roots are real and unequal")
-
